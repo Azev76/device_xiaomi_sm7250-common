@@ -178,6 +178,9 @@ service vendor.pd_mapper /vendor/bin/pd-mapper
     user system
     group system
 
+# Prevents permission denied error for telephony
+    chmod 0644 /proc/cmdline
+
 #Peripheral manager
 service vendor.per_mgr /vendor/bin/pm-service
     class core
