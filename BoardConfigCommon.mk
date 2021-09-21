@@ -142,7 +142,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
 BOARD_VENDOR := xiaomi
-BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lito
 
 # Power
